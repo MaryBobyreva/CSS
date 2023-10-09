@@ -1,0 +1,174 @@
+a {
+  color: blue;
+}
+a:hover {
+  color: red;
+}
+a:visited {
+  color:rebeccapurple;
+}
+.email {
+  border: 2px solid lightblue; 
+  padding: 5px;
+}
+.email:focus {
+  background-color: lightsalmon;
+  border-color: blue;
+  outline: none;
+}
+
+li:first-child {
+  background: greenyellow;
+}
+li:last-child {
+  background: lightseagreen;
+}
+/*li:nth-child(odd) {
+  background: orchid;
+}*/
+div {
+  background-image: linear-gradient(orange, red, blue);
+  width: 200px;
+  height: 50px;
+}
+.hard {
+  background-image: linear-gradient(orange, grey 10%, yellow 50%);
+}
+.ellips {
+  background-image: radial-gradient(at top right, red, yellow);
+  padding: 1rem;
+  width: 300px;
+}
+.circle {
+  background-image: radial-gradient(closest-corner at 20px 20px, green, blue);
+  padding: 1rem;
+  width: 300px;
+}
+.circle:hover {
+background-image: radial-gradient(farthest-side at 20px 20px, green, blue) ;
+}
+.seapink {
+  background-image: radial-gradient(50px 10px at 35% 50%, darkviolet, pink);
+}
+.trans {
+  background-color: lightgray;
+  color: grey;
+}
+.trans:hover {
+  background: yellow;
+  color: red;
+  transition-duration: 2s;
+  transition-property: all;
+  border: 5px solid blue;
+  transition-delay: 0.5s;
+}
+/*.trans {
+  transition: 1s;
+}
+*/
+div {
+  left: 0;
+  position: relative;
+  transition: 1s;
+}
+main:hover div {
+left: 200px;
+}
+.ease {
+  transition-timing-function: ease;
+}
+.linear {
+  transition-timing-function: linear;
+}
+.ease-in {
+  transition-timing-function:ease-in;
+}
+.ease-out {
+  transition-timing-function: ease-out;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+@keyframes bouncing {
+  0% {bottom: 0; box-shadow: 0 0 5px rgba(0,0,0,0.5);}
+  100% {bottom: 50px; box-shadow: 0 50px 50px rgba(0,0,0,0.1)}
+}
+button {
+  animation: bouncing 0.5s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both;
+  position: relative;
+}
+@keyframes around {
+  0% {left: 0; top: 0;}
+  25% {left: 240px; top: 0;}
+  50% {left: 240px; top: 140px;}
+  75% {left: 0; top: 140px;}
+  100% {left: 0; top: 0;}
+}
+.peasy {
+  height: 60px;
+  width: 60px;
+  animation: around 4s linear infinite;
+  position: relative;
+}
+@keyframes rotating {
+ 0% {transform: rotate(0deg);}
+ 100% {transform: rotate(360deg);}
+}
+
+.transform {
+  animation: rotating 4s linear infinite;
+  position: relative;
+  width: 60px ;
+  height: 60px;
+  background-color: rgb(113, 113, 143);
+  border-radius: 15px;
+}
+
+@keyframes scaling {
+  0% {transform: scale(1);}
+  20% {transform: scale(2);}
+  40% {transform: scale(0.5);}
+  60% {transform: scale(0);}
+  80% {transform: scale(-1);}
+  100% {transform: scale(1);}
+}
+
+.scale {
+  width: 60px ;
+  height: 60px;
+  background-color: rgb(113, 113, 143);
+  border-radius: 20px;
+  animation: scaling 10s steps(1) 0s infinite;
+  margin: 30px;
+}
+@keyframes skewing {
+  0% {transform: skew(0deg);}
+  20% {transform: skew(10deg);}
+  40% {transform: skew(45deg);}
+  60% {transform: skew(90deg);}
+  80% {transform: skew(120deg);}
+  100% {transform: skew(0deg);}
+}
+.skew {
+  animation: skewing 10s steps(1) 0s infinite;
+  position: relative;
+  width: 60px ;
+  height: 60px;
+  background-color: rgb(113, 113, 143);
+  border-radius: 15px;
+  margin: 40px;
+}
+
+@keyframes threeD {
+  0% {transform: translate3d(0, 0, 0);}
+  100% {transform: translate3d(0, 0, 200px);}
+}
+.threed {
+  animation: threeD 5s alternate;
+  position: relative;
+  width: 60px ;
+  height: 60px;
+  background-color: rgb(113, 113, 143);
+  border-radius: 15px;
+  margin: 40px;
+}

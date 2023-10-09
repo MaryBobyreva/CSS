@@ -1,0 +1,33 @@
+.menu a {
+  background-color: red;
+  color: white;
+  display: inline;
+}
+.gone-baby-gone {
+  display: none;
+}
+
+.hollow-man {
+  visibility: hidden;
+}
+blockquote {
+  background-color: blue;
+  height: 50px;
+  width: 100px;
+  overflow: visible;
+  border-color: yellow;
+  border-style: dotted;
+  border-width: 2px;
+  padding: 20px;
+}
+
+.margin {
+  margin: 40px;
+}
+.title {
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  margin-top: 15px;
+}

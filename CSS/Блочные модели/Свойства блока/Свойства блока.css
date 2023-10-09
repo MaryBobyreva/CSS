@@ -1,0 +1,132 @@
+
+body {
+  font-family: Oswald, sans-serif;;
+}
+  .design {
+  background-color: #edf6ff;
+  padding: 20px;
+  border: 2px solid #ff761a ;
+  margin: 10px;
+}
+li {
+  padding-left: 10px;
+}
+img {
+  background-color: #818991;
+  padding: 15px;
+  border: 2px solid #ce242b;
+}
+.gradient {
+  background: linear-gradient(to top, #cfe7fa, #6393c1);
+  padding: 10px;
+}
+.gradient>div {
+  background: #fff;
+  padding: 20px;
+}
+span {
+background-color: #ff761a;
+padding: 3px 10px;
+}
+.light {
+  font-weight: 300;
+}
+.reg {
+  font-weight: 400;
+}
+.med {
+  font-weight: 500;
+}
+.semi {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  background: #b18979;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 2px;
+}
+li:first-child {
+  border-radius:7px 7px 0 0 ;
+}
+li:last-child {
+  border-radius: 0 0 7px 7px;
+}
+.border {
+  background: #d6eff8;
+  padding: 10px;
+  border: 2px solid #0069b5;
+  outline: 2px solid #c52b1c;
+  outline-offset: 3px;
+}
+.test1 {
+  background: #B2D235;
+  padding: 40px;
+  outline: 2px solid #fff;
+  outline-offset: -20px;
+}
+.gun {
+  background:#B6DEC2 ;
+  width: 100%;
+  border-collapse: collapse;
+  }
+  .gun th,td {
+    border: 2px solid white;
+    padding: 10px;
+  }
+  .test2 {
+    background: #86328C;
+    color: #fff;
+    padding: 1em;
+    border: 6px double #fff;
+  }
+  .block {
+    background: #B08874;
+    padding: 1rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  .auto {
+    width: 80%;
+    background: #D4E3A5;
+    padding: 1rem;
+    border: 2px solid #7D9B3D;
+    margin: auto;
+  }
+  .htm {
+    display: block;
+    margin: auto;
+  }
+  .tree+.stat {
+    margin-top: -1rem;
+  }
+  .stat {
+    font-size: 3rem;
+  }
+  body {
+    margin: 0;
+  }
+  header {
+    background: #D4E3A5;
+    padding: 1em;
+  }
+  .stone {
+    width: 80%;
+    margin: auto;
+    
+  }
+
+  .title th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  
+  }
