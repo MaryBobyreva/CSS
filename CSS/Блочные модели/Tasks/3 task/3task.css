@@ -1,0 +1,24 @@
+body {
+  background-color: #B6D554;
+}
+.login {
+  background: #fff;
+  width: 300px;
+  margin: auto;
+  padding: 30px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  box-sizing: border-box;
+}
+.login p {
+  display: block;
+  margin-top: 15px ;
+}
+.login p:first-child {
+  display: block;
+  margin: 0;
+}
+.login input {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
