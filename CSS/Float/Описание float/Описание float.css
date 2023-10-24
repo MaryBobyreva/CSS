@@ -1,0 +1,31 @@
+.pic {
+  width: 250px;
+  float: right;
+  margin: 0 0 10px 10 px;
+}
+.dirihle {
+  margin: 150px 0 0 0;
+}
+.frame {
+  float: right;
+  background: #887dba;
+  color: #fff;
+  padding: 10px;
+  margin: 0 0 10px 10 px;
+}
+.ltr, .rtl {
+  color: #f5faf4;
+  font-size: 2em;
+  padding: 10px 20px;
+  margin-bottom: 1em;
+}
+.ltr {
+  float: left;
+  background: #69539c;
+  margin-right: 10px;
+}
+.rtl {
+  float: right;
+  background: #37673f;
+  margin-left: 10px;
+}
