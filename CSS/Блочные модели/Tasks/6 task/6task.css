@@ -1,0 +1,17 @@
+body {
+  background: #f7f6f2;
+  margin: 0;
+}
+.bg {
+  background: #a1bd57;
+  min-height: 200px;
+}
+.content {
+  width: 400px;
+  min-height: 250px;
+  margin: auto;
+  background: #fff;
+  border: 3px solid #dad6cf;
+  position: relative;
+  top: -100px;
+}
