@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+.sidebar, .content {
+  position: absolute;
+  overflow: auto;
+  padding: 10px;
+  top: 61px;
+  bottom: 0;
+}
+header {
+  height: 60px;
+  background: #FEDFC0;
+  border-bottom: 1px solid #7B5427;
+}
+header h1 {
+  line-height: 60px;
+  margin: 0 10px;
+}
+.sidebar {
+  width: 150px;
+  background: #ECF5E4;
+  border-right: 1px solid #231F20;
+}
+.content {
+  left: 171px;
+  right: 0;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+.dialog {
+  position: absolute;
+  background: #fff;
+  width: 260px;
+  padding: 20px;
+  min-height: 180px;
+  left: 0;
+  right: 0;
+  margin: 80px auto 0;
+}
